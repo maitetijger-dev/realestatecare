@@ -1,0 +1,98 @@
+{
+  "completedReports": [
+    {
+      "id": 101,
+      "title": "Inspection Property 14",
+      "address": "Kerklaan 14, Apeldoorn",
+      "date": "2026-04-01",
+      "damage": {
+        "location": "Living room",
+        "isNew": true,
+        "damageType": "wear",
+        "date": "2026-04-01",
+        "urgent": false,
+        "description": "Light scratches on the wall",
+        "photos": []
+      },
+      "maintenance": {
+        "location": "Kitchen",
+        "maintenanceType": "painting",
+        "urgent": false,
+        "costRange": "0-500",
+        "photos": []
+      },
+      "installations": {
+        "location": "Basement",
+        "installationType": "heating",
+        "reportedIssues": "No warm water",
+        "approved": false,
+        "comments": "Boiler needs replacement",
+        "photos": []
+      },
+      "modifications": {
+        "location": "Bathroom",
+        "performedBy": "tenant",
+        "description": "Unapproved shower installation",
+        "actionRequired": "inspect",
+        "comments": "",
+        "photos": []
+      }
+    },
+    {
+      "id": 102,
+      "title": "Technical Installation Check",
+      "address": "Bosweg 7, Apeldoorn",
+      "date": "2026-04-03",
+      "installations": {
+        "location": "Attic",
+        "installationType": "ventilation",
+        "reportedIssues": "Strange noise",
+        "approved": true,
+        "comments": "System functioning within limits",
+        "photos": []
+      }
+    },
+    {
+      "id": 103,
+      "title": "Damage Assessment",
+      "address": "Parkstraat 22, Apeldoorn",
+      "date": "2026-03-28",
+      "damage": {
+        "location": "Bedroom",
+        "isNew": false,
+        "damageType": "tenant",
+        "date": "2026-03-28",
+        "urgent": true,
+        "description": "Broken window",
+        "photos": []
+      }
+    },
+    {
+      "id": 104,
+      "title": "Maintenance Review",
+      "address": "Kanaalweg 9, Apeldoorn",
+      "date": "2026-03-20",
+      "maintenance": {
+        "location": "Roof",
+        "maintenanceType": "woodrot",
+        "urgent": true,
+        "costRange": "1500+",
+        "photos": []
+      }
+    },
+    {
+      "id": 105,
+      "title": "Modification Check",
+      "address": "Loolaan 55, Apeldoorn",
+      "date": "2026-03-18",
+      "modifications": {
+        "location": "Garden",
+        "performedBy": "unknown",
+        "description": "Unauthorized shed",
+        "actionRequired": "remove",
+        "comments": "",
+        "photos": []
+      }
+    }
+  ]
+}
