@@ -2,79 +2,71 @@
   "completedReports": [
     {
       "id": 101,
-      "title": "Inspection Property 14",
+      "title": "Inspectie woning 14",
       "address": "Kerklaan 14, Apeldoorn",
       "date": "2026-04-01",
       "damage": {
-        "location": "Living room",
+        "location": "Woonkamer",
         "isNew": true,
-        "damageType": "wear",
+        "damageType": "slijtage",
         "date": "2026-04-01",
         "urgent": false,
-        "description": "Light scratches on the wall",
+        "description": "Lichte schade aan de muur",
         "photos": []
       },
       "maintenance": {
-        "location": "Kitchen",
-        "maintenanceType": "painting",
+        "location": "Keuken",
+        "maintenanceType": "schilderwerk",
         "urgent": false,
         "costRange": "0-500",
         "photos": []
       },
       "installations": {
-        "location": "Basement",
-        "installationType": "heating",
-        "reportedIssues": "No warm water",
+        "location": "Kelder",
+        "installationType": "verwarming",
+        "reportedIssues": "Geen warm water",
         "approved": false,
-        "comments": "Boiler needs replacement",
-        "photos": []
-      },
-      "modifications": {
-        "location": "Bathroom",
-        "performedBy": "tenant",
-        "description": "Unapproved shower installation",
-        "actionRequired": "inspect",
-        "comments": "",
+        "comments": "Boiler moet vervangen worden",
         "photos": []
       }
     },
     {
       "id": 102,
-      "title": "Technical Installation Check",
+      "title": "Technische installatie controleren",
       "address": "Bosweg 7, Apeldoorn",
       "date": "2026-04-03",
       "installations": {
-        "location": "Attic",
-        "installationType": "ventilation",
-        "reportedIssues": "Strange noise",
+        "location": "Zolder",
+        "installationType": "luchtverversing",
+        "reportedIssues": "vreemd geluid",
         "approved": true,
-        "comments": "System functioning within limits",
+        "comments": "systeem werkt naar behoren",
         "photos": []
       }
     },
     {
       "id": 103,
-      "title": "Damage Assessment",
+      "title": "Schade opnemen",
       "address": "Parkstraat 22, Apeldoorn",
       "date": "2026-03-28",
       "damage": {
-        "location": "Bedroom",
+        "location": "Slaapkamer",
         "isNew": false,
-        "damageType": "tenant",
+        "damageType": "geweld",
         "date": "2026-03-28",
         "urgent": true,
-        "description": "Broken window",
+        "description": "Gebroken raam",
         "photos": []
       }
     },
     {
       "id": 104,
-      "title": "Maintenance Review",
+      "title": "Achterstallig onderhoud",
       "address": "Kanaalweg 9, Apeldoorn",
       "date": "2026-03-20",
       "maintenance": {
-        "location": "Roof",
-        "maintenanceType": "woodrot",
+        "location": "Dak",
+        "maintenanceType": "houtrot",
         "urgent": true,
         "costRange": "1500+",
         "photos": []
@@ -82,16 +74,38 @@
     },
     {
       "id": 105,
-      "title": "Modification Check",
+      "title": "Controlleer tuin",
       "address": "Loolaan 55, Apeldoorn",
       "date": "2026-03-18",
       "modifications": {
-        "location": "Garden",
-        "performedBy": "unknown",
-        "description": "Unauthorized shed",
-        "actionRequired": "remove",
+        "location": "Tuin",
+        "performedBy": "onbekend",
+        "description": "Onofficiële schuur",
+        "actionRequired": "weghalen",
         "comments": "",
         "photos": []
+      }
+    }
+  ],
+  "assignedReports": [
+    {
+      "id": 110,
+      "title": "Algemene inspectie woning",
+      "address": "Kerklaan 26, Apeldoorn",
+      "date": "2026-05-13",
+      "damage": {
+      },
+      "maintenance": {
+      },
+      "installations": {
+      }
+    },
+    {
+      "id": 111,
+      "title": "Technische installatie controleren",
+      "address": "Rumbastraat 15, Apeldoorn",
+      "date": "2026-08-12",
+      "installations": {
       }
     }
   ]
