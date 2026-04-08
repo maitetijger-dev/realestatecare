@@ -108,5 +108,21 @@
       "installations": {
       }
     }
+  ],
+  "knowledgeBase": [
+    {
+      "id": 1,
+      "title": "Hoe maak je een inspectierapport?",
+      "category": "Inspecties",
+      "content": "Stappenplan voor het uitvoeren van een inspectie...",
+      "updated": "2026-01-10"
+    },
+    {
+      "id": 2,
+      "title": "Veiligheidsrichtlijnen",
+      "category": "Veiligheid",
+      "content": "Belangrijke regels voor veilig werken op locatie...",
+      "updated": "2026-02-05"
+    }
   ]
 }
